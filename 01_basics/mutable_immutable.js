@@ -12,3 +12,10 @@ userTwo.email = "ayush@google.com"; // Modifying userTwo also affects userOne.
 
 console.log(userOne.email); // Output: ayush@google.com
 console.log(userTwo.email); // Output: ayush@google.com
+let  firstname = "rajiv"
+// let lastname = new String("sharma")
+let lastname ="sharma"
+console.log(lastname); 
+lastname.replace('s','-')
+console.log(lastname);
+// console.log(lastname.replace('s','-')); 
